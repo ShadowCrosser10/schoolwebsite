@@ -1,60 +1,35 @@
-body
-{
-    text-align: center;
+body {
+text-align: center;
 }
-#welcome {
-    color: #FFFFFF;
-    bottom: 0;
-    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
-    display: table;
-    width: 100%;
-    height: 100%;
-    z-index: 9;
-}
-#bio {
-    font-family: 'Cinzel Decorative', cursive;
-    padding: 50px;
-    text-align: center;
-}
-h1 {
-    font-size: 40px;
-    font-family: sans-serif;
-    font-weight: 300;
+
+.Titlesandheads {
+font-family: 'Cinzel Decorative', cursive;
 }
 
 .line {
-    height: 6px;
-    background-color: #000;
-    width: 70px;
-    margin: 8px auto;
-}
-#contact iframe
-{
-    width: 100%;
-}
-.contact_1 h3
-{
-    display: inline;
-}
-.contact_1 a
-{
-    text-shadow: none;
+background-color: black;
+height:6px;
+width:70px;
+margin:4px auto;
 }
 
-
-#videos iframe
-{
-    width: 80%;
+.Paragraphs {
+font-family: 'Cinzel', serif;
+font-size: 22px;
+font-weight:bold;
 }
 
-
-input
-{
-    background: grey;
+.makeBig {
+font-size:22px;
+margin-top:15px;
+}
+  
+.img {
+width:60%;
+height:auto;
 }
 
-.my_nav_bar {
-   position:sticky;
-    z-index:5999;
-   top:0;
+#mitch {
+width:60%;
+height:auto;
 }
